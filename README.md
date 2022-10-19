@@ -64,6 +64,6 @@ Thus you permit the user of this software to use your contribution under the ter
 	:/# php artisan serve
     ```
 
-7. Visite **http://localhost:8000**. :
+7. Visite **  http://localhost:8000/list  *****
 
 
