@@ -1,7 +1,7 @@
 ## Tratamiento de registros de base de datos
 
 <p align="center">
-Mostrar en una tabla los registros paginados, con la posibilidad de editar y eliminarlos
+Mostrar en una tabla los registros de productos, con la posibilidad de editar y eliminarlos
 </p>
 
 ![Registros en tabla](https://github.com/walterpisacco/wp-dataTables/blob/main/imagen.png)
@@ -60,6 +60,7 @@ Thus you permit the user of this software to use your contribution under the ter
 	:/#	php artisan key:generate
 	:/#	crear base de datos Mysql y configurar .env
  	:/#	php artisan migrate
+    :/# php artisan db:seed --class=ProductSeeder
 	:/# php artisan serve
     ```
 
